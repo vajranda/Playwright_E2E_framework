@@ -1,0 +1,33 @@
+[
+  {
+"title": "avengers",
+    "description": "the one man show",
+    "category": "Sports",
+    "city": "Mangalore",
+    "venue": "managala nagara",
+    "dateTime": "2029-09-26T23:56",
+    "price": "1234",
+    "seat": "12",
+    "fullname": "wajid sarkar",
+    "email": "sarkar@abc.com",
+    "phone": "9878674567"
+  },
+  {
+    "title": "King kong",
+    "description": "the ANIMALS",
+    "category": "Sports",
+    "city": "hubali",
+    "venue": "managala nagara",
+    "dateTime": "2028-09-26T23:56",
+    "price": "12",
+    "seat": "123",
+    "fullname": "Rashid khan",
+    "email": "sarkar@abc.com",
+    "phone": "9778674567"
+  }
+
+
+
+
+
+]

@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 6060,
+      "title": "22ww",
+      "description": "ww",
+      "category": "Conference",
+      "venue": "www",
+      "city": "ww",
+      "eventDate": "2026-09-26T18:18:00.000Z",
+      "price": "23",
+      "totalSeats": 22,
+      "availableSeats": 22,
+      "imageUrl": null,
+      "isStatic": false,
+      "userId": 2936,
+      "createdAt": "2026-09-23T18:18:41.036Z",
+      "updatedAt": "2026-09-23T18:18:41.036Z"
+    },
+    {
+      "id": 6059,
+      "title": "event 6",
+      "description": "aa",
+      "category": "Conference",
+      "venue": "aa",
+      "city": "aa",
+      "eventDate": "2026-09-26T18:18:00.000Z",
+      "price": "2",
+      "totalSeats": 2,
+      "availableSeats": 2,
+      "imageUrl": null,
+      "isStatic": false,
+      "userId": 2936,
+      "createdAt": "2026-09-23T18:18:25.899Z",
+      "updatedAt": "2026-09-23T18:18:25.899Z"
+    },
+    {
+      "id": 5062,
+      "title": "Kambala",
+      "description": "A premier technology conference.",
+      "category": "KANDA",
+      "venue": "Mangalore International Centre",
+      "city": "Kudla",
+      "eventDate": "2029-06-15T09:00:00.000Z",
+      "price": "1500",
+      "totalSeats": 500,
+      "availableSeats": 500,
+      "imageUrl": "https://example.com/banner.jpg",
+      "isStatic": false,
+      "userId": 2936,
+      "createdAt": "2026-09-21T19:06:44.845Z",
+      "updatedAt": "2026-09-21T19:06:44.845Z"
+    },
+    {
+      "id": 5058,
+      "title": "ass",
+      "description": "ass",
+      "category": "Conference",
+      "venue": "aa",
+      "city": "dff",
+      "eventDate": "2026-09-22T22:04:00.000Z",
+      "price": "12",
+      "totalSeats": 11,
+      "availableSeats": 11,
+      "imageUrl": null,
+      "isStatic": false,
+      "userId": 2936,
+      "createdAt": "2026-09-21T19:01:39.449Z",
+      "updatedAt": "2026-09-21T19:01:39.449Z"
+    }
+  ],
+  "pagination": {
+    "total": 7,
+    "page": 1,
+    "limit": 12,
+    "totalPages": 1
+  }
+}
