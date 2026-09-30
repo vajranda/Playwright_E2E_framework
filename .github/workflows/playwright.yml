@@ -51,4 +51,4 @@ jobs:
         run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
 
       - name: Run Smoke Tests
-        run: mvn test -Psmoke -Dbrowser=${{ github.event.inputs.browser }} -Denv=${{ github.event.inputs.environment }}
+        run: mvn test -Psmoke -Dbrowser=${{ inputs.browser || 'chrome' }} -Denv=${{ inputs.environment || 'qa' }}
