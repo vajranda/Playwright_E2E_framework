@@ -32,10 +32,13 @@ public class Utility {
 
         if (browserName.equalsIgnoreCase("firefox")) {
 
-            browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+          //  browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.firefox().launch();
         } else if (browserName.equalsIgnoreCase("safari")) {
-            browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
-        } else browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+          //  browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.webkit().launch();
+        } else //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            browser = playwright.chromium().launch();
 
 
 
