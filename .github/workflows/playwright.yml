@@ -27,7 +27,7 @@ on:
         options:
           - qa
           - dev
-          - -prod
+          - prod
 
 
 
