@@ -6,6 +6,32 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
+  workflow_dispatch:
+    inputs:
+
+      browser:
+        description: "Select browser"
+        required: true
+        default: "chrome"
+        type: choice
+        options:
+          - chrome
+          - firefox
+          - webkit
+
+      environment:
+        description: "Select environment"
+        required: true
+        default: "qa"
+        type: choice
+        options:
+          - qa
+          - dev
+          - -prod
+
+
+
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -25,4 +51,4 @@ jobs:
         run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
 
       - name: Run Smoke Tests
-        run: mvn test -Psmoke -Dbrowser=chrome
+        run: mvn test -Psmoke -Dbrowser=${{ github.event.inputs.browser }} -Denv=${{ github.event.inputs.environment }}
